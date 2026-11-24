@@ -1,0 +1,45 @@
+RF01 - Agendamento de Consulta do Pet.
+RF02 - Catálogo de Animais para Adoção.
+RF03 - Especificações do Animal (alergias, doenças, etc.).
+RF04 - Agendamento de Creche para Pet's.
+RF05 - Pet-shop (Materiais para animais).
+RF06 - Contato com veterinários profissionais.
+RNF01 - Sistema não demonstra lentidão.
+RNF02 - Sistema não demonstra configuração de tema (claro ou escuro).
+
+3 Histórias de Usuário
+
+Como uma *pessoa com deficiência visual*
+Quero um *cão-guia*
+Para que *eu tenha mais praticidade/facilidade na minha vida no dia à dia*
+
+Como um(a) *pessoa solitária*
+Quero um *animal de estimação*
+Para que *eu tenha uma companhia*
+
+Como um *estudante de medicina veterinária*
+Quero uma *ave doméstica*
+Para que *me faça companhia e me ajudo nos estudos*
+
+2 Critérios de Aceitação
+
+Pegando esta História de Usuário:
+    Como uma *pessoa com deficiência visual*
+    Quero um *cão-guia*
+    Para que *eu tenha mais praticidade/facilidade na minha vida no dia à dia*
+
+Cenário 1 (Sucesso)
+    Dado que o(a) cliente solicite um cão-guia, quando confirmar o pedido, então será redirecionado(a) ao site do Gov.br para mandar suas documentações e conseguir sem pagar o animal.
+
+Cenário 2 (Exceção)
+    Dado que o(a) cliente solicite um cão-guia quando não estiver disponível nenhum, quando confirmar o pedido, então será avisado que não tem disponível nenhum cão-guia no momento e perguntará se quer ficar na fila para quando disponível, já ser solicitado para o(a) cliente.
+    
+Pegando esta História de Usuário:
+    Como um *estudante de medicina veterinária*
+    Quero uma *ave doméstica*
+    Para que *me faça companhia e me ajudo nos estudos*
+
+Cenário 1 (Sucesso)
+    Dado que o(a) cliente quer adotar uma ave doméstica, quando confirmar o pedido, então será redirecionado(a)
+
+Cenário 2 (Exceção)
